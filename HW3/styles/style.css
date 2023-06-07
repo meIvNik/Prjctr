@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1024px;
+  margin: auto;
+  color: #333333;
+}
+p {
+  font-size: 20px;
+}
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #1b1b1b;
+  margin: 20px 0;
+}
+.author-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #5a5a5a;
+}
+.author {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+.author a {
+  margin-left: 10px;
+  font-size: 16px;
+}
+.author-date p {
+  text-align: end;
+  margin: 0;
+}
+.big-picture {
+  line-height: 0;
+}
+.picture-name {
+  color: #888888;
+  margin: 10px 0 20px 0;
+}
+h3 {
+  font-size: 20px;
+  margin: 0 0 40px 0;
+}
+.bold-text {
+  font-weight: bold;
+}
+h2 {
+  margin: 0 0 40px 0;
+}
+ol,
+ul {
+  margin: 0 0 40px 110px;
+}
+ol li::marker {
+  color: #00a5cf;
+  font-weight: 500;
+}
+ul li::marker {
+  content: "— ";
+  padding: 5px;
+  color: #00a5cf;
+}
+.link-inside {
+  border-bottom: 2px solid #79d400;
+}
