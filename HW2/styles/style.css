@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Tomorrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sintony&display=swap");
+
+body {
+  margin: 0;
+}
+main {
+  font-family: "Tomorrow", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+.logo img {
+  width: 238px;
+}
+.menu-top {
+  width: 288px;
+}
+.menu-top p {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.menu-top ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-top li {
+  margin: 0;
+}
+
+.cart {
+  display: flex;
+}
+
+.first-sect {
+  padding: 40px 100px;
+  min-height: 80vh;
+  background-image: url(../images/Background.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  position: relative;
+}
+h1 {
+  font-size: 56px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 140%;
+  letter-spacing: 3.5px;
+}
+.first-sect div {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Просто вирішив спробувати, мабуть краще не використовувати позішн абслют */
+}
+.second-sect {
+  padding: 150px 100px;
+  display: flex;
+  align-items: center;
+}
+.second-sect p {
+  font-family: "Sintony", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  padding-left: 50px;
+  /* padding-right: 150px; */
+  margin: 0;
+  /* max-width: 815px; */
+}
+.second-sect div img {
+  /* height: 100%;  */
+  /* Як задати щоб висота картинки = висоты блока? */
+}
+
+.third-sect {
+  padding: 200px;
+  /* min-height: 80vh; */
+  background-image: linear-gradient(to right, #8aa195, #332e0b);
+  background-size: cover;
+  position: relative;
+}
+.third-sect::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../images/Background.png");
+  opacity: 0.9;
+  background-size: cover;
+}
+h2 {
+  font-size: 56px;
+  line-height: 78px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+}
+.fourth-sect {
+  display: flex;
+  padding: 100px;
+}
+
+.fourth-sect-block {
+  margin-left: 140px;
+  font-family: "Sintony", sans-serif;
+}
+h3 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 400;
+}
+.fourth-sect-block p {
+  font-size: 24px;
+}
