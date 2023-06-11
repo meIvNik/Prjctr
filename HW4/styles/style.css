@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+body {
+  margin: 0;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+}
+p,
+li,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Cormorant Garamond", serif;
+}
+header {
+  color: #ffffff;
+  background-image: url(../images/image\%2059.png);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  min-height: 80vh;
+}
+.head-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 40px 60px;
+}
+
+.head-menu > li {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.head-menu > li:first-child {
+  padding-right: 10%;
+}
+
+.head-menu > li:last-child {
+  padding-left: 10%;
+
+  /* border-bottom: 10px;
+  border-color: #ffffff; */
+}
+.head-menu > li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.head-menu > li:last-child > a {
+  border-bottom: 1px solid;
+  border-color: #ffffff;
+  padding: 0 5px 10px 5px;
+}
+#top-header-text {
+  padding: 60px 0 75px 135px;
+}
+h1 {
+  font-size: 96px;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 100px;
+  margin: 0;
+  text-align: center;
+}
+#under-h1-text {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 75px 0;
+}
+#repeat-text {
+  position: absolute;
+  top: 700px;
+  display: flex;
+  text-transform: capitalize;
+  color: #71870e;
+  font-weight: 600;
+  /* justify-content: space-around; */
+}
+.img-photo {
+  font-size: 0;
+  /* height: 354px; */
+  height: calc(354px / 1.5);
+  position: relative;
+  /* height: 50%; */
+}
+.img-photo img {
+  position: absolute;
+  /* position: relative; */
+  left: 50%;
+  top: -75%;
+  transform: translate(-50%, 50%);
+}
+
+.second-sect {
+  padding-top: 200px;
+}
+.second-sect-right-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #71870e;
+  padding-right: 65px;
+  text-align: end;
+  opacity: 0.8;
+}
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+  padding: 75px 140px 100px 210px;
+}
+.small-text {
+  font-size: 14px;
+  padding-right: 140px;
+  vertical-align: text-top;
+  text-transform: capitalize;
+  opacity: 0.55;
+}
+
+.italic-text {
+  font-style: italic;
+}
+.green-text {
+  color: #71870e;
+}
+
+.second-sect-block {
+  width: 640px;
+  font-size: 16px;
+  padding: 0 400px;
+  font-weight: 600;
+}
+.second-sect-block p:first-child {
+  padding-bottom: 40px;
+}
+.second-sect-last-text {
+  padding-top: 75px;
+  text-align: end;
+  color: #778534;
+  opacity: 0.8;
+}
+.third-sect {
+  margin: 200px;
+}
